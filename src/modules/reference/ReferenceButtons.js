@@ -22,7 +22,11 @@ const styles = (theme) => ({
   },
   table: {
     marginBottom: theme.spacing.unit * 4,
-  },
+    tableLayout: 'fixed',
+    '& td': {
+      wordWrap: 'break-word',
+    }
+  }
 })
 
 class ReferenceButtons extends Component {
